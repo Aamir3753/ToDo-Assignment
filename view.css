@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(72, 132, 85);
+
+}
+.col-md-4>div {
+    border: 1px solid rgb(114, 181, 128);
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.col-md-4 h1 {
+    height: 100px;
+    overflow: auto;
+}
+
+.col-md-4 p {
+    height: 150px;
+    overflow: auto;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.row-default{
+    margin-bottom:10px;
+    margin-top:10%;
+}
+.modal-content{
+    background-color:rgb(72, 132, 85);    
+}
+.modal-header{
+    border-bottom: 1px solid  rgb(114, 181, 128);
+}
+#heading,#detail{
+    background-color: rgb(114, 181, 128);
+    border:transparent;
+}
+#heading,#detail:focus{
+    background-color: rgb(114, 181, 128);
+    border:transparent;
+}
